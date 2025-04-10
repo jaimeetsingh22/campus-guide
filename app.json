@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "react-native-basic",
-    "slug": "react-native-basic",
+    "name": "Campus Guide",
+    "slug": "campus-guide",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -36,6 +36,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "53c74d92-7ced-48d4-93df-aaebaacb29fb"
+      }
+    },
+    "owner": "jaimeet.test"
   }
 }
