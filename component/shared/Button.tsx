@@ -30,6 +30,7 @@ export default function Button({
             width: "100%",
             alignSelf: "center",
             borderWidth: outLine ? 1 : 0,
+            marginBottom: 10,
           },
           { ...style },
         ]}
